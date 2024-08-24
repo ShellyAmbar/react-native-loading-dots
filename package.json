@@ -1,0 +1,33 @@
+{
+  "name": "react-native-loading-dots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShellyAmbar/react-native-loading-dots.git"
+  },
+  "keywords": [
+    "loading",
+    "dots",
+    "loading",
+    "react native",
+    "native",
+    "animated",
+    "dots",
+    "loading dots"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "author": "Shelly Ambar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShellyAmbar/react-native-loading-dots/issues"
+  },
+  "homepage": "https://github.com/ShellyAmbar/react-native-loading-dots#readme",
+  "description": ""
+}
