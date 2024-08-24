@@ -1,7 +1,7 @@
 {
-  "name": "react-native-loading-dots",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "react-native-animated-loading-dots",
+  "version": "1.0.1",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

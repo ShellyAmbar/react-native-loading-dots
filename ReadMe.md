@@ -7,28 +7,34 @@
 ![](./assets/videos/1.gif)
 ![](./assets/videos/2.gif)
 ![](./assets/videos/3.gif)
+![](./assets/videos/4.gif)
 
 ## How to use:
 
 ```
 import Loading from 'react-native-loading-dots';
 
-    <Loading
+  <Loading
         dotCount={4}
         dotSize={50}
         dotSpacing={8}
         duration={300}
         dotStyle={{borderRadius: 5}}
+        animationType="UP_AND_DOWN"
       />
 ```
 
 # Props -
 
-| Name       | Type      | Default |
-| ---------- | --------- | ------- |
-| dotCount   | number    |
-| dotSize    | number    |
-| dotSpacing | number    |
-| duration   | number    |
-| colors?    | string[]  |
-| dotStyle?  | ViewStyle |
+type AnimationType = 'UP_AND_DOWN' | 'FADE_IN_OUT';
+
+| Name           | Type          | Default       |
+| -------------- | ------------- | ------------- |
+| dotCount       | number        |
+| dotSize        | number        |
+| dotSpacing     | number        |
+| duration       | number        |
+| colors?        | string[]      |
+| dotStyle?      | ViewStyle     |
+| animationType? | AnimationType | "FADE_IN_OUT" |
+| slideHeight?   | number        |

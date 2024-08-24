@@ -1,4 +1,5 @@
 import {ViewStyle} from 'react-native';
+type AnimationType = 'UP_AND_DOWN' | 'FADE_IN_OUT';
 
 interface ILoadingDotsProps {
   dotCount: number;
@@ -7,6 +8,8 @@ interface ILoadingDotsProps {
   duration: number;
   colors?: string[];
   dotStyle?: ViewStyle;
+  animationType?: AnimationType;
+  slideHeight?: number;
 }
 
-export default ILoadingDotsProps;
+export {ILoadingDotsProps, AnimationType};
