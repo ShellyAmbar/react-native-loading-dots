@@ -7,7 +7,6 @@
 ![](./assets/videos/1.gif)
 ![](./assets/videos/2.gif)
 ![](./assets/videos/3.gif)
-![](./assets/videos/4.gif)
 
 ## How to use:
 
@@ -38,3 +37,4 @@ type AnimationType = 'UP_AND_DOWN' | 'FADE_IN_OUT';
 | dotStyle?      | ViewStyle     |
 | animationType? | AnimationType | "FADE_IN_OUT" |
 | slideHeight?   | number        |
+| delay?         | number        |
